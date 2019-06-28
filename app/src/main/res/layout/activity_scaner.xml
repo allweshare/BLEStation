@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lab_station_sel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxHeight="150dp"
+        android:minHeight="100dp"
+        android:text="@string/lab_sta_sel"
+        android:textColor="@color/colorFont"
+        android:textSize="36sp" />
+
+    <ListView
+        android:id="@+id/list_sta"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorFont"
+        android:minHeight="50dp" />
+
+    <TextView
+        android:id="@+id/txt_curr_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="@string/txt_curr_com"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_rescan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:minHeight="50dp"
+        android:text="重新扫描"
+        android:textSize="24sp" />
+
+</LinearLayout>

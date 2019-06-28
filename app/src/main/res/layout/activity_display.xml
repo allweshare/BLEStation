@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="温度： ---- ℃"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_humd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="湿度： ---- %RH"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_press"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="气压： ---- hPa"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_rain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="雨量： ---- mm"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="1dp" />
+
+    <TextView
+        android:id="@+id/txt_wind_curr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="瞬时风"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_wdir_curr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:text="风向： ---- °"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_wspd_curr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="风速： ---- m/s"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="一分钟风"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_wdir_1min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:text="风向： ---- °"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_wspd_1min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="风速： ---- m/s"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/txt_wind_10min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="十分钟风"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_wdir_10min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:text="风向： ---- °"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_wspd_10min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="风速： ---- m/s"
+            android:textColor="@color/colorFont"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/txt_dev_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="50dp"
+        android:text="设备名称： ----"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_dev_vtg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="50dp"
+        android:text="设备电压： ----V"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp" />
+
+</LinearLayout>

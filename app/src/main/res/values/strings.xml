@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BLEStation</string>
+    <string name="lab_sta_sel">选择便携站</string>
+    <string name="txt_curr_com">当前连接: ///</string>
+    <string name="txt_dev_vlt">设备电压: 12.0 V</string>
+    <string name="title_activity_scaner">AAA</string>
+    <string name="title_activity_display">BBB</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="not_support">暂时还不支持</string>
+    <string name="lab_date_sel">选择日期</string>
+    <string name="txt_date_sel">选择日期</string>
+</resources>
